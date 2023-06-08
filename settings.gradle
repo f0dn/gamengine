@@ -8,4 +8,4 @@
  */
 
 rootProject.name = 'gamengine'
-include('lib')
+include('gamengine')
