@@ -54,8 +54,8 @@ public class Font {
             int charIndex = Font.chars.indexOf(message.charAt(i));
             if (charIndex >= 0) {
                 screen.render(currX, currY, charIndex + 30 * 32, color, false, false, scale, offset);
+                currX += 8 * scale;
             }
-            currX += 8 * scale;
         }
     }
 }

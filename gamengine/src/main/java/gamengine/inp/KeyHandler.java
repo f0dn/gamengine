@@ -17,7 +17,7 @@ public class KeyHandler implements KeyListener {
      */
     public KeyHandler(Game game) {
         game.addKeyListener(this);
-        for (int i = 0; i < 525; i++) {
+        for (int i = 0; i < this.keys.length; i++) {
             this.keys[i] = new Key();
         }
     }
