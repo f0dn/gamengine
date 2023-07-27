@@ -154,7 +154,7 @@ public abstract class Game extends Canvas implements Runnable {
 
     public void run() {
         long lastTime = System.nanoTime();
-        double nsPerTick = 1000000000D/this.FPS;
+        double nsPerTick = 1000000000D / this.FPS;
 
         this.ticks = 0;
         this.frames = 0;
@@ -190,7 +190,7 @@ public abstract class Game extends Canvas implements Runnable {
     }
 
     /**
-     * This function is called every frame
+     * This function is called every game tick
      * <p>Put all game logic here</p>
      */
     public abstract void tick();
